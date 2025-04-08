@@ -1,0 +1,54 @@
+id: homework1
+name: CSCI 43200 Homework1
+type: topic
+
+modules:
+
+  - id: "crypto"
+    name: Cryptography
+    description: Homework 1 for CSCI 43200 Purdue Spring 2025
+
+    challenges:
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: cryptography
+          challenge: level-4
+        name: Task 1
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: cryptography
+          challenge: cpa
+        name: Task 2
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: cryptography
+          challenge: aes-cbc
+        name: Task 3
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: cryptography
+          challenge: aes-cbc-corrupt
+        name: Task 4
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: cryptography
+          challenge: aes-cbc-corrupt-resize
+        name: Task 5
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: cryptography
+          challenge: aes-cbc-poa
+        name: Task 6
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: cryptography
+          challenge: level-9
+        name: Task 7
+    
