@@ -1,54 +1,59 @@
-id: homework1
-name: CSCI 43200 Homework1
+id: homework4
+name: CSCI 43200 Homework4
 type: topic
 
 modules:
 
-  - id: "crypto"
-    name: Cryptography
-    description: Homework 1 for CSCI 43200 Purdue Spring 2025
+  - id: "network"
+    name: Network Security
+    description: Homework 4 for CSCI 43200 Purdue Spring 2025
 
     challenges:
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-4
+          module: intercepting-communications
+          challenge: level-1
         name: Task 1
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: cpa
+          module: intercepting-communications
+          challenge: level-1a
         name: Task 2
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: aes-cbc
+          module: intercepting-communications
+          challenge: level-2
         name: Task 3
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: aes-cbc-corrupt
+          module: intercepting-communications
+          challenge: level-3
         name: Task 4
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: aes-cbc-corrupt-resize
+          module: level-4
+          challenge: intercepting-communications
         name: Task 5
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: aes-cbc-poa
+          module: intercepting-communications
+          challenge: level-5
         name: Task 6
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-9
+          module: intercepting-communications
+          challenge: dos-1
         name: Task 7
-    
+
+      - import:
+          dojo: intro-to-cybersecurity
+          module: intercepting-communications
+          challenge: sniff-cookie
+        nameL Task 8
