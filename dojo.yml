@@ -36,8 +36,8 @@ modules:
 
       - import:
           dojo: intro-to-cybersecurity
-          module: level-4
-          challenge: intercepting-communication
+          module: intercepting-communication
+          challenge: level-4
         name: Task 5
 
       - import:
