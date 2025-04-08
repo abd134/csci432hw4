@@ -1,10 +1,10 @@
-id: homework4
+cid: homework4
 name: CSCI 43200 Homework4
 type: topic
 
 modules:
 
-  - id: "network"
+  - id: "networksec"
     name: Network Security
     description: Homework 4 for CSCI 43200 Purdue Spring 2025
 
