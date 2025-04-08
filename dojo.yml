@@ -56,4 +56,4 @@ modules:
           dojo: intro-to-cybersecurity
           module: intercepting-communication
           challenge: sniff-cookie
-        nameL Task 8
+        name: Task 8
