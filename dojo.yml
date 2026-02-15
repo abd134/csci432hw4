@@ -52,8 +52,3 @@ modules:
           challenge: rsa-sig
         name: Task 7
 
-      - import:
-          dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: sniff-cookie
-        name: Task 8
