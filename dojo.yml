@@ -1,55 +1,55 @@
-id: homework4
-name: CSCI 43200 Homework4
+id: homeworkH
+name: CSCI 43200 Honors Homework
 type: topic
 
 modules:
 
-  - id: "networksec"
-    name: Network Security
-    description: Homework 4 for CSCI 43200 Purdue Spring 2025
+  - id: "asymmetriccryptography"
+    name: Asymmetric |Aryptography
+    description: Honors Homework for CSCI 43200 Purdue Spring 2026
 
     challenges:
 
       - import:
           dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: level-1
+          module: cryptography
+          challenge: level-6
         name: Task 1
 
       - import:
           dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: level-1a
+          module: cryptography
+          challenge: dhke-aes
         name: Task 2
 
       - import:
           dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: level-2
+          module: cryptography
+          challenge: level-7
         name: Task 3
 
       - import:
           dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: level-3
+          module: cryptography
+          challenge: level-8
         name: Task 4
 
       - import:
           dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: level-4
+          module: cryptography
+          challenge: level-11
         name: Task 5
 
       - import:
           dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: level-5
+          module: cryptography
+          challenge: level-12
         name: Task 6
 
       - import:
           dojo: intro-to-cybersecurity
-          module: intercepting-communication
-          challenge: dos-1
+          module: cryptography
+          challenge: rsa-sig
         name: Task 7
 
       - import:
