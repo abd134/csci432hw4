@@ -1,54 +1,59 @@
-id: homeworkH
-name: CSCI 43200 Honors Homework
+id: homework4
+name: CSCI 43200 Homework4
 type: topic
 
 modules:
 
-  - id: "asymmetriccryptography"
-    name: Asymmetric Cryptography
-    description: Honors Homework for CSCI 43200 Purdue Spring 2026
+  - id: "networksec"
+    name: Network Security
+    description: Homework 4 for CSCI 43200 Purdue Spring 2026
 
     challenges:
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-6
+          module: intercepting-communication
+          challenge: level-1
         name: Task 1
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: dhke-aes
+          module: intercepting-communication
+          challenge: level-1a
         name: Task 2
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-7
+          module: intercepting-communication
+          challenge: level-2
         name: Task 3
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-8
+          module: intercepting-communication
+          challenge: level-3
         name: Task 4
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-11
+          module: intercepting-communication
+          challenge: level-4
         name: Task 5
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: level-12
+          module: intercepting-communication
+          challenge: level-5
         name: Task 6
 
       - import:
           dojo: intro-to-cybersecurity
-          module: cryptography
-          challenge: rsa-sig
+          module: intercepting-communication
+          challenge: dos-1
         name: Task 7
 
+      - import:
+          dojo: intro-to-cybersecurity
+          module: intercepting-communication
+          challenge: sniff-cookie
+        name: Task 8
